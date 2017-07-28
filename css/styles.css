@@ -1,6 +1,7 @@
-#center_left{
+.center_left{
     text-align: left; !important;
-    /*display: flex; */
+    margin-left: 25%;
+    /*display: flex;*/
     /*flex-direction: row;*/
     /*justify-content: flex-start;*/
     /*text-align: center;*/
