@@ -77,7 +77,7 @@
         <div id="header_div"> <!--class="container" prev.-->
             <div class="intro-text">
                 <!--<div class="intro-lead-in">Welcome | Benvenuto </div> TODO: Develop bilingual option for Italian.-->
-                <div class="intro-heading">Python / Web Development</div>
+                <div class="intro-heading">Python & Web Development</div>
 
                 <a href="#services" class="page-scroll btn btn-xl">Show Me More</a>
             </div>
@@ -100,7 +100,7 @@
                         <i class="fa fa-rocket fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Web App Development</h4>
-                    <p class="text-muted"> Python server side with Django, RESTful framework, MVT/MVC, and API manipulation. </p>
+                    <p class="text-muted"> Python server side with Django, RESTful framework, MVT/MVC, and API parsing. </p>
                 </div>
                 <div class="col-md-4">
                     <span class="fa-stack fa-4x">
@@ -116,7 +116,7 @@
                         <i class="fa fa-bar-chart fa-stack-1x fa-inverse"></i>
                     </span>
                     <h4 class="service-heading">Data Science</h4>
-                    <p class="text-muted">  Pandas, NumPy, and more, combining dataset manipulation with visual storytelling. </p>
+                    <p class="text-muted">  Pandas, NumPy, and more, combining Big Data with visual storytelling. </p>
                 </div>
             </div>
         </div>
@@ -200,8 +200,8 @@
                         <img src="img/making_the_business_case_for_madcap_flare.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Content Management System</h4>
-                        <p class="text-muted">System Design, Testing & Deployment</p>
+                        <h4>Content Management Systems</h4>
+                        <p class="text-muted"> Design, Testing & Deployment</p>
                     </div>
                 </div>
 
@@ -217,25 +217,24 @@
                    <img src="img/conf_client_architettura_001.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Writing & Corporate Strategy </h4>
+                        <h4> Corporate Strategy </h4>
                         <p class="text-muted">Project Management</p>
                     </div>
                 </div>
 
-<!--TODO: Add more samples
-                                <div class="col-md-4 col-sm-6 portfolio-item">#}
-{#                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">#}
-{#                        <div class="portfolio-hover">#}
-{#                            <div class="portfolio-hover-content">#}
-{#                                <i class="fa fa-plus fa-3x"></i>#}
-{#                            </div>#}
-{#                        </div>#}
-{#                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">#}
-{#                    </a>#}
-{#                    <div class="portfolio-caption">#}
-{#                        <h4>Dreams</h4>#}
-{#                        <p class="text-muted">Website Design</p>#}
-{#                    </div>#}-->
+             <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/SVC_AMDSCPLN-1.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Marketing</h4>
+                        <p class="text-muted">Software Modernization Services</p>
+                    </div>
             </div>
         </div>
     </section>
@@ -413,10 +412,9 @@
                                 <h2>DataPanino&trade;</h2>
                                 <p class="item-intro text-muted"> Don't just crunch your data. Munch your data.&trade; </p>
                                 <img class="img-responsive img-centered" src="img/country_panini_netherlands.png" alt="">
-                                <p> DataPanino&trade; helps users discover trends and insights in economic growth. Visualize Intellectucal Property (IP) sales
-                                    in context of overall economic growth in seven (7) leading European Union countries. My
-                                    target audience is analysts, economists, and investors. DataPanino enables you to show a country's growth&mdash;
-                                    or compare it with another's&mdash;from 1975 to 2015, using four economic indicators:
+                                <p> DataPanino&trade; helps you discover trends in economic growth by comparing Intellectucal Property (IP) sales
+                                    with overall economic growth in seven (7) leading European Union countries. Chart visualization shows a country's growth&mdash;
+                                    from 1975 to 2015&mdash;and allows you to save custom snapshots, using four economic indicators:
 
                                 <div class="center_left">
                                         <ul> &#x25BA;&nbsp; IP: Intellectual Property Sales </ul>
@@ -425,12 +423,12 @@
                                         <ul> &#x25BA;&nbsp; FDI:&nbsp;Foreign Direct Investment</ul>
                                     </div>
                                     &nbsp;
-                                    Identify trends and compare growth by sector. Select a range of years. Save a snapshot in your collection. (The Netherlands [NL] with 4 indicators are shown here.)
+                                    Identify trends and compare growth by sector. Select a range of years. Save a snapshot in your collection. <br> (The Netherlands [NL] with 4 indicators are shown here.)
                                 </p>
                                 <p>
                                     Global economic data shows explosive growth of 5435.6% from 1975-2016 for sales on patents, copyrights, and trademarks— collectively—intellectual property (IP).
                                     Compared with other economic indicators, IP sales presents a useful predictor for understanding how countries innovate, develop, and design
-                                    new ideas—as well as license and sell branding and publishing. This web application uses the World Bank API.
+                                    new ideas—as well as license and sell branding and publishing. This web application serves as a tool for analysts, economists, and investors.
                                 </p>
                                 <p>
                                 <ul class="list-inline">
@@ -465,7 +463,7 @@
                                 <h2>Dashboard Design</h2>
                                 <p class="item-intro text-muted">The DataPanino&trade; Web Application also offers a dashboard to view 4 economic indicators for a single year in 7 EU countries</p>
                                 <img class="img-responsive img-centered" src="img/country_france.jpg" alt="">
-                                <p><a href="#services">Dashboard UI</a> demonstrates parsing JSON objects from the WorldBank API with Python, and Javascript on the front end.</p>
+                                <p><a href="#services">Dashboard UI</a> demonstrates parsing JSON objects from API with Python Django, and Javascript on the front end.</p>
                                 <p><a href="https://michaelvincerra.github.io/">Contact me</a> to view more examples.
                                     <ul class="list-inline">
                                         <li><strong>Date:</strong> June 2017</li>
@@ -501,14 +499,14 @@
                                 <p>
                                     Provided web design and writing to specification. As Web Developer Lead, I managed entire Web site project, negotiated contracts
                                     with freelancers, wrote all site content, and designed all graphics. I conducted several User Acceptance
-                                    Tests and organized a small team to provide feedback on web site functionality, and on display for Tablet and smart phones.
-                                    I also contributed Web Marketing: SEO for Web site and Corporate E-mail Newsletter.
+                                    Tests and organized a team of 8 to provide feedback on web site functionality and display behavior.
+                                    I also defined SEO for Website and designed a Corporate E-mail Newsletter.
 
                                     <div class="center_left">
                                     <ul> &#x25BA;&nbsp;Wrote all content and defined SEO strategy </ul>
                                     <ul> &#x25BA;&nbsp;Designed all graphics; followed client specifications </ul>
                                     <ul> &#x25BA;&nbsp;Art Directed photo-shoot for all products  </ul>
-                                    <ul> &#x25BA;&nbsp;Conducted interviews and research on aerospace & defense </ul>
+                                    <ul> &#x25BA;&nbsp;Conducted interviews/research on aerospace & defense products</ul>
                                     <ul> &#x25BA;&nbsp;Managed User Acceptance Testing  </ul>
                                     <ul> &#x25BA;&nbsp;Conducted team reviews and functional tests for Mobile and Tablet </ul>
                                     </div>
@@ -591,7 +589,7 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Writing & <br> Corporate Strategy </h2>
+                                <h2> Corporate Strategy </h2>
                                 <p class="item-intro text-muted">Project Lead / Lead Writer</p>
                                 <img class="img-responsive img-centered" src="img/conf_client_architettura_001.jpg" alt="">
                                 <p>Project Manager/ Lead Writer on corporate identity brochure for international confidential industrial design firm.
@@ -609,6 +607,48 @@
                                         <li><strong>Date:</strong> December 2008</li>
                                         <li><strong>Category:</strong> Corporate Strategy | Project Management </li>
                                     </ul>
+                                </p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+ <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2> Software <br> Modernization Services </h2>
+                                <p class="item-intro text-muted"> Technical Writer</p>
+                                <img class="img-responsive img-centered" src="img/SVC_AMDSCPLN-1.jpg" alt="">
+                                <p> I designed service model for Legacy Modernization in collaboration with Director of Solution Services
+                                    at Software Solutions provider. Services included Java, Ajax, SOA, and Web Services using IBM&trade; platforms. <br>Target audience:  Companies with
+                                    with Websites whose pre-existing RDBMs required integration.</p>
+
+                                    <div class="center_left">
+                                    <ul>&#x25BA;&nbsp;Collaborated with staff programmer to define core services</ul>
+                                    <ul>&#x25BA;&nbsp;Designed service model based on Web GUI for insurance claims </ul>
+                                    <ul>&#x25BA;&nbsp;Service model became Software Consulting Services, "SaaS" </ul>
+                                    <ul>&#x25BA;&nbsp;Implementation of WebSphere&trade; Application Server, HATS, and Rational&trade; software</ul>
+                                    </div>
+
+                                    <ul class="list-inline">
+                                        <li><strong>Date:</strong> August 2007</li>
+                                        <li><strong>Category:</strong> Service Model | Software  </li>
+                                    </ul>
+                                <i>Note: The IBM and IBM Business Partner logos are registered trademarks of International Business Machines Corporation.</i>
                                 </p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>

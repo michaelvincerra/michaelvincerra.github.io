@@ -19,3 +19,17 @@
     height: 90px;
 
 }
+
+.intro-heading{
+    text-shadow: 2px 2px 4px #95A5A6;
+
+}
+
+.navbar-brand {
+    text-shadow: 1px 1px 2px #95A5A6;
+
+}
+
+.col-lg-12{
+    margin-top: -70px;
+}
