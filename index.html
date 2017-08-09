@@ -46,7 +46,7 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand page-scroll" href="#contact">Hey Michael, start coding for me!</a>
+                <a class="navbar-brand page-scroll" href="#contact">Contact me to start coding!</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
@@ -122,7 +122,7 @@
         </div>
     </section>
 
-    <!-- Portfolio Grid Section -->
+    <!-- PORTFOLIO GRID -->
     <section id="portfolio" class="bg-light-gray">
         <div class="container">
             <div class="row">
@@ -142,11 +142,14 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <div class="project_box">
                         <img src="img/country_panini_netherlands.jpg" class="img-responsive" alt="">
+                        </div>
                     </a>
-                    <div class="portfolio-caption">
-                        <h4>Web Application: DataPanino&trade;</h4>
-                        <p class="text-muted">Economic Analysis</p>
+
+                    <div class="project_box_caption portfolio-caption">
+                        <h4>Web Applications</h4>
+                        <p class="text-muted">Economic Analysis: IP Sales</p>
                     </div>
                 </div>
 
@@ -154,23 +157,25 @@
 
                 <!-- Dashboard Design-->
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal2" class="project_box portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
+                        <div class="project_box">
                         <img src="img/country_france.jpg" class="img-responsive" alt="">
+                        </div>
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Web Scraping & JSON Management </h4>
+                        <h4>Web Scraping & JSON Parsing </h4>
                         <p class="text-muted">Dashboard Design</p>
                     </div>
                 </div>
 
                 <!-- PECO Astronics Website-->
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal3" class="project_box portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -179,14 +184,14 @@
                         <img src="img/peco_homepage.jpg" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Astronics-PECO</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Website Design</h4>
+                        <p class="text-muted">Design, Writing, Graphics</p>
                     </div>
                 </div>
 
                 <!-- MadCap Flare-->
                 <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                    <a href="#portfolioModal4" class="project_box portfolio-link" data-toggle="modal">
                         <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
                                 <i class="fa fa-plus fa-3x"></i>
@@ -195,29 +200,30 @@
                         <img src="img/making_the_business_case_for_madcap_flare.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>MadCap Flare: Design & Launch</h4>
-                        <p class="text-muted">Content Management System (CMS)</p>
+                        <h4>Content Management System</h4>
+                        <p class="text-muted">System Design, Testing & Deployment</p>
+                    </div>
+                </div>
+
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="project_box portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+
+                   <img src="img/conf_client_architettura_001.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Writing & Corporate Strategy </h4>
+                        <p class="text-muted">Project Management</p>
                     </div>
                 </div>
 
 <!--TODO: Add more samples
-{#                <div class="col-md-4 col-sm-6 portfolio-item">#}
-{#                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">#}
-{#                        <div class="portfolio-hover">#}
-{#                            <div class="portfolio-hover-content">#}
-{#                                <i class="fa fa-plus fa-3x"></i>#}
-{#                            </div>#}
-{#                        </div>#}
-{##}
-{#                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">#}
-{#                    </a>#}
-{#                    <div class="portfolio-caption">#}
-{#                        <h4>Escape</h4>#}
-{#                        <p class="text-muted">Website Design</p>#}
-{#                    </div>#}
-{#                </div>#}
-{##}
-{#                                <div class="col-md-4 col-sm-6 portfolio-item">#}
+                                <div class="col-md-4 col-sm-6 portfolio-item">#}
 {#                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">#}
 {#                        <div class="portfolio-hover">#}
 {#                            <div class="portfolio-hover-content">#}
@@ -459,7 +465,7 @@
                                 <h2>Dashboard Design</h2>
                                 <p class="item-intro text-muted">The DataPanino&trade; Web Application also offers a dashboard to view 4 economic indicators for a single year in 7 EU countries</p>
                                 <img class="img-responsive img-centered" src="img/country_france.jpg" alt="">
-                                <p><a href="#services">Dashboard Design</a> demonstrates Python calls to JSON using the WorldBank API on the backend, and Javascript, Flex Box, and CSS Grid on the front end.</p>
+                                <p><a href="#services">Dashboard UI</a> demonstrates parsing JSON objects from the WorldBank API with Python, and Javascript on the front end.</p>
                                 <p><a href="https://michaelvincerra.github.io/">Contact me</a> to view more examples.
                                     <ul class="list-inline">
                                         <li><strong>Date:</strong> June 2017</li>
