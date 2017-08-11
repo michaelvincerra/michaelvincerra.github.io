@@ -26,10 +26,48 @@
 }
 
 .navbar-brand {
-    text-shadow: 1px 1px 2px #95A5A6;
+    text-shadow: 2px 2px 2px #95A5A6;
 
 }
 
 .col-lg-12{
     margin-top: -70px;
+}
+
+
+/*.row_bttm1 {*/
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*flex-wrap: wrap;*/
+
+/*}*/
+
+
+.container_bttm {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    /*align-items: center;*/
+    align-content: center;
+}
+
+.btn btn-xl{
+    padding-top: 10px;
+}
+
+
+.text_yellow  {
+    color: #FED136;
+    font-size: medium;
+}
+
+.button_bttm{
+    margin-top: 10px;
+}
+
+.center{
+    margin: auto;
+    width: 50%;
+    padding: 10px;
 }
