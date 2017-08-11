@@ -106,6 +106,7 @@ a.active, a:active, a:focus, a:hover {
 .navbar-custom {
     background-color: #222;
     border-color: transparent
+    margin: 10px;
 }
 
 .navbar-custom .navbar-brand {
@@ -124,13 +125,15 @@ a.active, a:active, a:focus, a:hover {
 }
 
 .navbar-custom .navbar-collapse {
-    border-color: rgba(255, 255, 255, .02)
+    border-color: rgba(255, 255, 255, .02);
+    margin-left: 20px;
+    margin-right:20px;
 }
 
 .navbar-custom .navbar-toggle {
     background-color: #fed136;
     border-color: #fed136;
-    font-size: 12px
+    font-size: 12px;
 }
 
 .navbar-custom .navbar-toggle:focus, .navbar-custom .navbar-toggle:hover {
