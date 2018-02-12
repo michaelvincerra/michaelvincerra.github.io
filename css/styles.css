@@ -3,6 +3,8 @@
     margin-left: 20%;
     margin-top: 0%;
     margin-bottom: 10%;
+    font-family: 'Hind', sans-serif;
+    font-size: 16px;
     /*display: flex;*/
     /*flex-direction: row;*/
     /*justify-content: flex-start;*/
@@ -24,7 +26,8 @@
 
 .intro-heading{
     margin-top: -90px;
-    text-shadow: 2px 2px 4px #95A5A6;
+    text-shadow: 2px 2px 4px #95A5A6
+    /* #2fadf6; */
 
 }
 
@@ -63,6 +66,9 @@
 
 .btn btn-xl{
     padding-top: 10px;
+    border-radius: 30px;
+
+
 }
 
 

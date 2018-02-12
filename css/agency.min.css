@@ -9,12 +9,12 @@
 
 body {
     overflow-x: hidden;
-    font-family: "Roboto Slab", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Hind', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
     webkit-tap-highlight-color: #fed136
 }
 
 .btn-primary, .btn-xl, h1, h2, h3, h4, h5, h6 {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu',sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
     text-transform: uppercase;
     font-weight: 700
 }
@@ -28,7 +28,7 @@ body {
 }
 
 p {
-    font-size: 14px;
+    font-size: 16px;
     line-height: 1.75
 }
 
@@ -59,7 +59,8 @@ a.active, a:active, a:focus, a:hover {
 .btn-primary {
     color: #fff;
     background-color: #fed136;
-    border-color: #fed136
+    border-color: #fed136;
+    border-radius: 50px;
 }
 
 .btn-primary.active, .btn-primary:active, .btn-primary:focus, .btn-primary:hover, .open .dropdown-toggle.btn-primary {
@@ -84,7 +85,9 @@ a.active, a:active, a:focus, a:hover {
     border-color: #fed136;
     border-radius: 3px;
     font-size: 18px;
-    padding: 20px 40px
+    padding: 20px 40px;
+    border-radius: 15px;
+
 }
 
 .btn-xl.active, .btn-xl:active, .btn-xl:focus, .btn-xl:hover, .open .dropdown-toggle.btn-xl {
@@ -105,13 +108,13 @@ a.active, a:active, a:focus, a:hover {
 
 .navbar-custom {
     background-color: #222;
-    border-color: transparent
-    margin: 10px;
+    border-color: transparent;
 }
 
 .navbar-custom .navbar-brand {
     color: #fed136;
-    font-family: "Kaushan Script", "Helvetica Neue", Helvetica, Arial, cursive
+    font-family: 'Ubuntu', sans-serif, "Helvetica Neue", Helvetica, Arial;
+
 }
 
 .navbar-custom .navbar-brand.active, .navbar-custom .navbar-brand:active, .navbar-custom .navbar-brand:focus, .navbar-custom .navbar-brand:hover {
@@ -119,9 +122,11 @@ a.active, a:active, a:focus, a:hover {
 }
 
 .navbar-custom .nav li a, .navbar-custom .navbar-toggle {
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: 'Ubuntu', sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
     color: #fff;
-    text-transform: uppercase
+    text-transform: uppercase;
+    font-size: 24px;
+
 }
 
 .navbar-custom .navbar-collapse {
@@ -193,7 +198,7 @@ a.active, a:active, a:focus, a:hover {
 }
 
 header {
-    background-image: url(../img/DSC0480.jpg);
+    background-image: url(../img/pcba_interstellar_01.jpg);
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
@@ -211,7 +216,7 @@ header .intro-text {
 }
 
 header .intro-text .intro-lead-in {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Hind", "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
     font-size: 22px;
     line-height: 22px;
@@ -242,7 +247,7 @@ header .intro-text .intro-heading {
     }
 
     header .intro-text .intro-heading {
-        font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
         text-transform: uppercase;
         font-weight: 700;
         font-size: 75px;
@@ -252,8 +257,9 @@ header .intro-text .intro-heading {
 }
 
 #portfolio .portfolio-item .portfolio-caption p, section h3.section-subheading {
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
-    font-style: italic
+    font-family: "Hind", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    font-size: large;
 }
 
 section {
@@ -719,14 +725,16 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 
 .portfolio-modal .modal-content p.item-intro {
     margin: 20px 0 30px;
-    font-family: "Droid Serif", "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: "Hind", sans-serif, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-style: italic;
-    font-size: 16px
+    font-size: 18px
 }
 
 .portfolio-modal .modal-content ul.list-inline {
     margin-bottom: 30px;
-    margin-top: 0
+    margin-top: 2 ;
+    font-size: 16px;
+    font-style: italic;
 }
 
 .portfolio-modal .modal-content img {
